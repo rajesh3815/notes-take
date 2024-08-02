@@ -1,0 +1,18 @@
+.headers {
+    height: 5rem;
+    width: 19rem;
+    display: flex;
+    align-items: center;
+    border-radius: 8px;
+    gap: 1.5rem;
+    padding: 1rem;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+
+
+@media screen and (max-width: 480px) {
+    .headers {
+        width: 100%;
+    }
+}

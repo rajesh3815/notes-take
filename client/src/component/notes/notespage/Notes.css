@@ -1,0 +1,12 @@
+.main {
+    background-color: #DAE5F5;
+    width: 77vw;
+   
+}
+
+@media  screen and (max-width: 480px)  {
+    .main{
+        display: none;
+    }
+    
+}

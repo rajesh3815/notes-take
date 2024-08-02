@@ -1,0 +1,46 @@
+.main-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 9rem;
+    height: 100vh;
+}
+
+.content {
+    width: 35rem;
+    height: max-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 0.7rem;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.content>h1 {
+    font-weight: 800;
+    font-family: cursive;
+}
+
+.content>p {
+    font-size: 17px;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+.content img {
+    height: 20rem;
+    width: 35rem;
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.3rem;
+    position: absolute;
+    bottom: 1rem;
+    left: 57%;
+}

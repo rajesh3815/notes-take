@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+
+.pops {
+    position: relative;
+    top: 15rem;
+    width: 32rem;
+    border-radius: 4px;
+    height: 14rem;
+    margin: auto;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 1.7rem;
+    padding: 1.5rem;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 3px;
+}
+
+.Popup {
+    position: fixed;
+    z-index: 100;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.2);
+
+}
+
+
+.groupName {
+    display: flex;
+    gap: .7rem;
+}
+
+.groupName input[type=text] {
+    height: 1.3rem;
+    width: 126%;
+    background-color: #fff;
+    padding: 8px 7px;
+    line-height: normal;
+    border: 1px solid#CCCCCC;
+    border-top-color: #CCCCCC;
+    border-radius: 20px;
+    box-shadow: 0 1px 0 rgb(255 255 255 / 50%), 0 1px 0 rgb(0 0 0 / 7%) inset;
+    outline: 0;
+    color: #111;
+    font-size: 16px;
+    letter-spacing: 2px;
+
+}
+
+.colors {
+    display: flex;
+    gap: 1rem;
+    font-size: 1.1rem;
+}
+
+.spans {
+    display: flex;
+    gap: .7rem;
+}
+
+
+.btn {
+    width: 5.6rem;
+    height: max-content;
+    background-color: #001F8B;
+    color: white;
+    padding: 0.4rem;
+    border: none;
+    border-radius: 7px;
+    font-size: 17px;
+    position: absolute;
+    bottom: 0.5rem;
+    right: 1rem;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #1f3277;
+}
+
+.btndiv {
+    display: inline;
+}
+@media  screen and (max-width: 480px)  {
+    .pops{
+        width: 21rem;
+        height: 15rem;
+    }
+    .btn{
+        width: 70%;
+        right: 13%;
+    }
+    
+}
